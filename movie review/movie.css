@@ -1,0 +1,115 @@
+/*上午班 13组 赵俊祥*/
+body{
+	background-image:url(http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/background.png?version=1&modificationDate=1268896312000);
+  font:8pt Verdana,Tahoma,sans-serif;
+  padding:0px;
+  margin:0px;
+}
+
+#banner{
+	background-image:url(http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/bannerbackground.png?version=1&modificationDate=1268896312000);
+	background-repeat:repeat-x;
+	text-align:center;
+}
+
+h1{
+	font:bold 24pt Tahoma,Verdana,sans-serif;
+	text-align:center;
+}
+
+#content{
+	width:800px;
+	border:4px solid gray;
+	margin:auto;
+}
+
+#overview{
+  width:250px;
+  font:8pt Arial,sans-serif;
+	float:right;
+	background-color:#A2B964;
+}
+
+dl{
+	padding-left:10px;
+}
+
+dt{
+	margin-top:1em;
+	font-weight:bold;
+}
+
+#rotten{
+	background-image:url(http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/rottenbackground.png?version=1&modificationDate=1268896385000);
+	background-repeat:repeat-x;
+	overflow:hidden;
+	height:83px;
+	font:8pt;
+	color:white;
+}
+
+#rotten img{
+	float:left;
+}
+
+#rate{
+	font-weight:bold;
+	font-size:48pt;  
+	line-height:90px;
+	color:red;
+}
+
+#columns{
+	width:550px;
+	overflow:hidden;
+}
+
+#leftcolumn{
+	width:47%;
+	margin-left:2%;
+	margin-right:2%;
+	float:left;
+}
+
+#rightcolumn{
+	width:47%;
+	margin-right:2%;
+	float:left;
+}
+
+.box{
+	background-color:#E1D697;
+	border:2px solid gray;
+	padding:8px;
+	font-weight:bold;
+	font-size:8pt;
+	overflow:hidden;
+}
+
+.critic{
+	margin-bottom:3em;
+	overflow:hidden;
+}
+
+#columns img{
+	float:left;
+	padding-right:5px;
+}
+
+.publication{
+	font-style:italic;
+}
+
+#footer{
+	background-color:#A2B964;
+	text-align:center;
+	clear:both;
+	padding:5px 0;
+	margin:0px;
+}
+
+#validator{
+	position:fixed;   /*固定于浏览器窗口右下角*/
+	right:0;
+	bottom: 0;
+}

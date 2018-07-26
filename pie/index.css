@@ -1,0 +1,35 @@
+/*赵俊祥 上午班 第13组*/
+body{
+  font-family:            sans-serif;
+  background-image:       url(http://img1.imgtn.bdimg.com/it/u=87544532,827516675&fm=200&gp=0.jpg);
+  background-size:        cover;
+  background-repeat:      no-repeat;
+}
+#header{
+  height:                 200px;
+  font-size:              1.1em;
+  padding-top:            30px;
+  text-align:             center;
+  text-decoration:        none;
+  text-shadow:            5px 5px 5px rgb(197,221,157);     /*给标题增加阴影效果*/
+  transition:             all 1s;                         /*渐变时间*/
+}
+#footer{
+  text-align:             center;
+  padding-top:            300px;
+  padding-bottom:         100px;
+}
+#header:hover{                                          /*悬停时更换背景色并放大*/
+  background-color:       rgba(197,221,157,0.4);
+  transition:             all 1s;
+  transform:              scale(1.2);
+}
+a:link{
+  color:                  #FFF;
+}
+a:visited{
+  color:                  #FFF;
+}
+a:hover{
+  color:                  rgb(197,221,157);            /*链接悬停时改变颜色*/
+}

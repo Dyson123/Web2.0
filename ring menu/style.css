@@ -1,0 +1,180 @@
+/*上午班 13组 赵俊祥*/
+#bottom-positioner{
+	position:absolute;
+	width:560px;
+	height:800px;
+	overflow:hidden;
+	left:25%;
+	bottom:10%;
+}
+
+.apb{
+	width:30px;
+	height:30px;
+	background:url(assets/images/atplus_white.png) no-repeat 50% 50% #9D9Dc2;
+	background-size:75%;
+	border-radius:50% 50%;                      /*使边框变成圆形*/
+	position:absolute;
+	left:40%;
+	bottom:20%;
+	transition:all 0.8s ease-in-out 0.6s;       /*变化时间0.8s，延迟0.9s收回*/ 
+}
+
+#info-bar{
+	width:10px;
+	height:10px;
+	border-radius:50% 50%;
+  position:absolute;
+  left:42%;
+  bottom:21%;
+	opacity:1;
+	overflow:hidden;
+	transition:all 0.8s ease-in-out 0.1s;
+}
+
+.button{
+	width:25px;
+	height:25px;
+	background-color:#7E7E7E;
+	color:#7E7E7E;
+	border-radius:50%;
+	position:absolute;
+	left:40.6%;
+	bottom:20.3%;
+	opacity:0;
+	transition:all 0.8s ease-in-out 0.1s;
+}
+
+.user{
+	position:absolute;
+	top:6px;
+	left:35px;
+}
+
+.user span{
+	font-size:15px;
+	color:white;
+	padding-left:10px;
+}
+
+.comment{
+	position:absolute;
+	top:35px;
+	left:26px;
+}
+
+.comment span{
+	padding-left:20px;
+	font-size:30px;
+	color:white;
+}
+
+.posted{
+	position:absolute;
+	top:75px;
+	left:20px;
+	color:#079E6E;
+}
+
+.posted img{
+	float:left;
+}
+
+.posted span{
+	padding-left:5px;
+}
+
+.like{
+	position:absolute;
+	top:75px;
+	left:66px;
+	color:#079E6E;
+}
+
+.like img{
+	float:left;
+}
+
+.like span{
+	padding-left:5px;
+}
+
+#button:hover .apb{
+	transform:scale(1.8);
+	background:url(assets/images/atplus_green.png) no-repeat 50% 50% rgb(48, 63, 159);
+	background-size:75%;
+	transition:all 0.8s ease-in-out 0.1s;
+}
+
+#button:hover #info-bar{
+	width:120px;
+	height:120px;
+  position:absolute;
+  left:180px;
+  bottom:210px;
+  background-color:#7E7E7E;
+  border-radius:50% 50%;
+  opacity:1;
+}
+
+#button:hover .mask{
+	background:url(assets/images/nomask.png) no-repeat 50% 50% #7E7E7E;
+	width:35px;
+	height:35px;
+	opacity:1;
+	left:28%;
+	bottom:25%;
+}
+
+#button:hover .history{
+	background:url(assets/images/history.png) no-repeat 50% 50% #7E7E7E;
+	width:35px;
+	height:35px;
+	opacity:1;
+	left:25%;
+	bottom:20%;
+}
+
+#button:hover .message{
+	background:url(assets/images/message.png) no-repeat 50% 50% #7E7E7E;
+	width:35px;
+	height:35px;
+	opacity:1;
+	left:28%;
+	bottom:15%;
+}
+
+#button:hover .setting{
+	background:url(assets/images/setting.png) no-repeat 50% 50% #7E7E7E;
+	width:35px;
+	height:35px;
+	opacity:1;
+	left:34%;
+	bottom:11%;
+}
+
+#button:hover .sign{
+	background:url(assets/images/signin.png) no-repeat 50% 50% #7E7E7E;
+	width:35px;
+	height:35px;
+	opacity:1;
+	left:42%;
+	bottom:11.2%;
+}
+
+#button:hover .unread{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	border-radius:50% 50%;
+	background-color:#FF3A31;
+  color:white;
+  text-align:center;
+  position:absolute;
+  left:23px;
+  bottom:21px;
+}
+
+#button ul{
+	list-style:none;
+}

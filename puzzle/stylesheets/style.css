@@ -1,0 +1,263 @@
+@font-face {
+	font-family: "Stencil Std";
+	src:url("../font/StencilStd.otf");
+}
+
+*{
+    font-family: "Stencil Std";
+    background-color: #FDF6E3;
+}
+
+#container{
+    width:370px;
+    margin:auto;
+}
+
+h1{
+    text-align: center;
+}
+
+#timeDiv{
+    display: inline-block;
+    width:150px;
+    margin-bottom: 20px;
+}
+
+#movesDiv{
+    display: inline-block;
+    width:130px;
+    margin-left:80px;
+    margin-bottom: 20px;
+}
+
+#time{
+    width:50px;
+    text-align: center;
+}
+
+#moves{
+    width:50px;
+    text-align: center;
+}
+
+#puzzle{
+    width:370px;
+    height:370px;
+    margin:auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#puzzle li{
+    background-image: url("../images/panda.jpg");
+    background-size: 370px 370px;
+    display: inline-block;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    border:1px solid white;
+    width:90px;
+    height:90px;
+    position: absolute;
+    transition: 0.5s all;
+}
+
+#win{
+    width:100%;
+    text-align: center;
+    opacity: 0;
+    font-size:20pt;
+}
+
+#hintPic{
+    position: absolute;
+    width:150px;
+    height:150px;
+    left:400px;
+    top:200px;
+    opacity: 0;
+}
+
+.panda{
+    background-image: url("../images/panda.jpg");
+    background-size: 150px 150px;
+}
+
+.qian{
+    background-image: url("../images/qian.jpg");
+    background-size: 150px 150px;
+}
+
+.luffie{
+    background-image: url("../images/luffie.jpg");
+    background-size: 150px 150px;
+}
+
+#puzzle li:hover{
+    transition: .2s all;
+    transform: translate(1px, -2px);
+}
+
+#start{
+    margin-right:100px;
+}
+
+#reset{
+    margin-left:140px;
+}
+
+#change{
+    margin-top:10px;
+}
+
+#hint{
+    margin-top:10px;
+    margin-left:170px;
+}
+
+#block1{
+    background-position:0 0;
+}
+
+.class1{
+    left:0;
+    top:0;
+}
+
+#block2{
+    background-position:-90px 0;
+}
+
+.class2{
+    left:25%;
+    top:0;
+}
+
+#block3{
+    background-position:-180px 0;
+}
+
+.class3{
+    left:50%;
+    top:0;
+}
+
+#block4{
+    background-position: -270px 0;
+}
+
+.class4{
+    left:75%;
+    top:0;
+}
+
+#block5{
+    background-position: 0 -90px;
+}
+
+.class5{
+    left: 0;
+    top: 25%;
+}
+
+#block6{
+    background-position: -90px -90px;
+}
+
+.class6{
+    left: 25%;
+    top: 25%;
+}
+
+#block7{
+    background-position: -180px -90px;
+}
+
+.class7{
+    left: 50%;
+    top: 25%;
+}
+
+#block8{
+    background-position: -270px -90px;
+}
+
+.class8{
+    left: 75%;
+    top: 25%;
+}
+
+#block9{
+    background-position: 0 -180px;
+}
+
+.class9{
+    left: 0;
+    top: 50%;
+}
+
+#block10{
+    background-position: -90px -180px;
+}
+
+.class10{
+    left: 25%;
+    top: 50%;
+}
+
+#block11{
+    background-position: -180px -180px;
+}
+
+.class11{
+    left: 50%;
+    top: 50%;
+}
+
+#block12{
+    background-position: -270px -180px;
+}
+
+.class12{
+    
+    left: 75%;
+    top: 50%;
+}
+
+#block13{
+    background-position: 0 -270px;
+}
+
+.class13{
+    left: 0;
+    top: 75%;
+}
+
+#block14{
+    background-position: -90px -270px;
+}
+
+.class14{
+    left: 25%;
+    top: 75%;
+}
+
+#block15{
+    background-position: -180px -270px;
+}
+
+.class15{
+    left: 50%;
+    top: 75%;
+}
+
+#block16{
+    background-image: none;
+    opacity: 0;
+}
+
+.class16{
+    left: 75%;
+    top: 75%;
+}
+

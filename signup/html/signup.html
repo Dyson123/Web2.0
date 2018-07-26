@@ -1,0 +1,46 @@
+<!--上午班 13组 16340301 赵俊祥-->
+<!--html of signup page-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/signup.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js" charset="utf-8"></script>
+    <script src="../js/validator.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <div class="userInfo-boxer">
+        <form class="signin" action="http://localhost:8000/" method="post">
+            <h1>用户注册</h1>
+            <div class="userInfo">
+                <div class="userName">
+                    <span class="attr">姓名:</span><input type="text" name="userName" value="" class="inputbox">
+                    <p class="invalid"></p>
+                </div>
+                <div class="userId">
+                    <span class="attr">学号:</span><input type="text" name="userId" value="" class="inputbox">
+                    <p class="invalid"></p>
+                </div>
+                <div class="phoneNum">
+                    <span class="attr">电话:</span><input type="text" name="phoneNum" value="" class="inputbox">
+                    <p class="invalid"></p>
+                </div>
+                <div class="email">
+                    <span class="attr">邮箱:</span><input type="text" name="email" value="" class="inputbox">
+                    <p class="invalid"></p>
+                </div>
+                <div class="buttons">
+                    <input type="reset" name="reset" value="重置">
+                    <input type="submit" name="submit" value="提交">
+                </div>
+            </div>
+        </form>
+    </div>
+    <p class="conflictInfo"></p>
+</body>
+
+</html>

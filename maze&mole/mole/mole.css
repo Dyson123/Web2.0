@@ -1,0 +1,81 @@
+#container{
+    width:772px;
+    height:493px;
+    margin:auto;
+    border:2px solid;
+    font-family: "Century Gothic", Futura, Verdana,sans-serif;
+}
+
+#container>p,#container h1{
+    text-align: center;
+}
+
+#display{
+    width:285px;
+    height:47px;
+    margin:auto;
+}
+
+#display div{
+    display: inline-block;
+}
+
+#timeDiv{
+    margin-left:39px;
+}
+
+#time{
+    width:34px;
+    background-color: white;
+    box-shadow: 1px 1px 2px;
+    border:none;
+}
+
+#scoreDiv{
+    margin-left:57px;
+}
+
+#status{
+    width:132px;
+    background-color: white;
+    box-shadow: -1px 1px 2px;
+    border:none;
+}
+
+#score{
+    width:34px;
+    background-color: white;
+    box-shadow: 1px 1px 2px;
+    border:none;
+    margin-left:4px;
+}
+
+#battlefield{
+    width:260px;
+    height:125px;
+    margin:auto;
+    margin-top:30px;
+    padding:5px 0;
+    border-top:2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.hole{
+    opacity:1;
+}
+
+.newMole{
+    opacity:1;
+}
+
+#instruction{
+    width:672px;
+    margin:auto;
+    margin-top:20px;
+    font-family:Courier New, Courier, monospace;
+    font-size:10pt;
+}
+
+#instruction p{
+    font-weight: bold;
+}

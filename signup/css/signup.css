@@ -1,0 +1,86 @@
+/*上午班 13组 16340301 赵俊祥*/
+/*stylesheet of signup page*/
+body{
+    background-image: url("./background.jpg");
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color:rgb(89, 95, 100);
+    font-family: Helvetica, sans-serif;
+    font-size: 20pt;
+}
+
+/*错误信息提示*/
+.invalid{
+    position: absolute;
+    display: inline-block;
+    color: rgb(233, 111, 111);
+    font-size: 10px;
+    font-family: Tahoma, sans-serif;
+    margin-left: 10px;
+}
+
+/*信息栏*/
+.userInfo-boxer{
+    width:1000px;
+    margin:auto;
+    margin-top:100px;
+    opacity: 0.6;
+}
+
+.userInfo>div{
+    width:1000px;
+    margin-left:270px;
+    margin-top:20px;
+}
+
+.attr{
+    margin-left:5%;
+    margin-right:10px;
+    color:grey;
+}
+
+.inputbox {
+    border: 1px solid grey;
+    height: 30px;
+    width:300px;
+    font-size: 20px;
+    color:grey;
+    background-color: #FDF6E3;
+    font-family: Tahoma, sans-serif;
+    display: inline-block;
+    border:none;
+}
+
+.inputbox:focus {
+    background-color: #DED5D5;
+}
+
+/*按钮设置*/
+.buttons {
+    box-sizing: border-box;
+    width: 400px;
+    margin-top:20px;
+
+}
+
+.buttons>input {
+    background-color: #47AEF9;
+    border-style: none;
+    color: white;
+    height: 30px;
+    width:300px;
+    margin-top:20px;
+    display: block;
+    margin-left:95px;
+}
+
+/*用户信息与其他用户重复是的提示*/
+.conflictInfo {
+    color: rgb(233, 111, 111);
+    font-size: 30px;
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+}

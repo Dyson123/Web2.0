@@ -1,0 +1,39 @@
+/*上午班 13组 16340301 赵俊祥*/
+/*stylesheet of info page*/
+body{
+    background-image: url("./background.jpg");
+    background-size: cover;
+}
+
+.InfoBox{
+    margin:auto;
+    margin-top:100px;
+    width:800px;
+    opacity: 0.6;
+}
+
+h1{
+    text-align: center;
+    color:rgb(89, 95, 100);
+    font-family: Helvetica, sans-serif;
+    font-size: 25pt;
+}
+
+.userInfo div {
+    margin:auto;
+    width:400px;
+}
+
+.attr {
+    color: #3BB2DD;
+    font-size: 30px;
+    font-family: Tahoma, sans-serif;
+    margin-left: 100px;
+}
+
+.info {
+    color:rgb(89, 95, 100);
+    font-size: 25px;
+    font-family: Tahoma, sans-serif;
+    margin-left:20px;
+}
